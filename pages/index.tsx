@@ -433,7 +433,7 @@ export default function Home() {
       <div className="fixed bottom-4 right-0">
         <Link target='_blank' href={'https://api.whatsapp.com/send/?phone=%2B51986761935&text=Quiero%20m%C3%A1s%20informacion&type=phone_number&app_absent=0'}>
           <Image
-            src="/wsp2.png"
+            src="https://marcocogs.github.io/certif/wsp2.png"
             alt="Vercel Logo"
             width={100}
             height={24}
