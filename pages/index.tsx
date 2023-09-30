@@ -109,7 +109,7 @@ export default function Home() {
       <div className="xl:hidden z-10 pb-2 sm:px-8 px-3 max-w-[1200px] text-white uppercase w-full items-center justify-between text-sm flex">
         <div className='flex flex-row justify-center gap-4'>
           <Image
-            src="https://marcocogs.github.io/certif/4.png"
+            src="https://marcocogs.github.io/certif/4.PNG"
             alt="Vercel Logo"
             width={50}
             height={24}
