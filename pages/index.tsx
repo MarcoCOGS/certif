@@ -74,14 +74,14 @@ export default function Home() {
       <div className="hidden z-10 pb-2 px-5 max-w-[1200px] text-white uppercase w-full items-center justify-between text-sm xl:flex">
         <div className='flex flex-row gap-4'>
           <Image
-            src="/4.png"
+            src="https://marcocogs.github.io/certif/4.png"
             alt="Vercel Logo"
             width={50}
             height={24}
             priority
           />
           <Image
-            src="/1.png"
+            src="https://marcocogs.github.io/certif/1.png"
             alt="Vercel Logo"
             width={220}
             height={24}
@@ -170,7 +170,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-screen h-[520px] md:h-[520px] relative">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/fondo3.jpg')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://marcocogs.github.io/certif/fondo3.jpg')" }}></div>
         <div className="absolute inset-0 bg-[rgba(1,30,44,0.25)]">
           <div className='z-50  flex flex-col mx-auto max-w-[1200px] justify-center px-14 pt-12 md:pt-28'>
             <div className='text-white text-[32px] md:text-6xl font-bold'>Fast and Secure <br /> Fingerprinting</div>
@@ -264,7 +264,7 @@ export default function Home() {
           </div>
           <div className='w-[350px] text-center'>
             <div className='flex justify-center mb-4'>
-              <Image src="/images/california.png" alt="Vercel Logo" width={120} height={120} priority />
+              <Image src="https://marcocogs.github.io/certif/images/california.png" alt="Vercel Logo" width={120} height={120} priority />
             </div>
             <div className='font-bold text-xl text-center mb-4'>California Fingerprinting</div>
             <div className='leading-loose text-[15px]'>
@@ -283,7 +283,7 @@ export default function Home() {
           </div>
           <div className='w-[350px] text-center'>
             <div className='flex justify-center mb-4'>
-              <Image src="/images/fingerprint-card.png" alt="Vercel Logo" width={120} height={120} priority />
+              <Image src="https://marcocogs.github.io/certif/images/fingerprint-card.png" alt="Vercel Logo" width={120} height={120} priority />
             </div>
             <div className='font-bold text-xl text-center mb-4'>Fingerprint Card Service</div>
             <div className='leading-loose text-[15px]'>
@@ -323,7 +323,7 @@ export default function Home() {
           </div>
           <div className='w-[350px] text-center'>
             <div className='flex justify-center mb-4'>
-              <Image src="/images/offer-image5.png" alt="Vercel Logo" width={120} height={120} priority />
+              <Image src="https://marcocogs.github.io/certif/images/offer-image5.png" alt="Vercel Logo" width={120} height={120} priority />
             </div>
             <div className='font-bold text-xl text-center mb-4'>Mobile Fingerprinting</div>
             <div className='leading-loose text-[15px]'>
@@ -342,7 +342,7 @@ export default function Home() {
           </div>
           <div className='w-[350px] text-center'>
             <div className='flex justify-center mb-4'>
-              <Image src="/images/offer-image6.png" alt="Vercel Logo" width={120} height={120} priority />
+              <Image src="https://marcocogs.github.io/certif/images/offer-image6.png" alt="Vercel Logo" width={120} height={120} priority />
             </div>
             <div className='font-bold text-xl text-center mb-4'>Live Scan System</div>
             <div className='leading-loose text-[15px]'>
@@ -366,21 +366,21 @@ export default function Home() {
           <div className='mt-16 flex flex-col items-center md:flex-row justify-center gap-16'>
             <div className='w-[350px] text-center'>
               <div className='flex justify-center mb-4'>
-                <Image src="/images/YouCanCountOnUs_Locations-min.png" alt="Vercel Logo" width={59} height={75} priority />
+                <Image src="https://marcocogs.github.io/certif/images/YouCanCountOnUs_Locations-min.png" alt="Vercel Logo" width={59} height={75} priority />
               </div>
               <div className='font-bold text-[40px] text-center mb-4'>1200+</div>
               <div className='leading-loose text-xl'>Locations</div>
             </div>
             <div className='w-[350px] text-center'>
               <div className='flex justify-center mb-4'>
-                <Image src="/images/YouCanCountOnUs_peopleFingerprinted-min.png" alt="Vercel Logo" width={85} height={75} priority />
+                <Image src="https://marcocogs.github.io/certif/images/YouCanCountOnUs_peopleFingerprinted-min.png" alt="Vercel Logo" width={85} height={75} priority />
               </div>
               <div className='font-bold text-[40px] text-center mb-4'>3+ million</div>
               <div className='leading-loose text-xl'>People Fingerprinted</div>
             </div>
             <div className='w-[350px] text-center'>
               <div className='flex justify-center mb-4'>
-                <Image src="/images/YouCanCountOnUs_experience-min.png" alt="Vercel Logo" width={74} height={75} priority />
+                <Image src="https://marcocogs.github.io/certif/images/YouCanCountOnUs_experience-min.png" alt="Vercel Logo" width={74} height={75} priority />
               </div>
               <div className='font-bold text-[40px] text-center mb-4'>15 years</div>
               <div className='leading-loose text-xl'>of experience</div>
