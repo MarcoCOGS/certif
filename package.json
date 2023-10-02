@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:local": "env-cmd -f .env.local next dev",
+    "dev:prd": "env-cmd -f .env.prd next dev",
+    "build:local": "env-cmd -f .env.local next build",
+    "build:prd": "env-cmd -f .env.prod next build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -16,6 +20,7 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "env-cmd": "^10.1.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
