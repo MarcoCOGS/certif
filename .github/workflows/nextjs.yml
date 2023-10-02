@@ -53,6 +53,13 @@ jobs:
         with:
           node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+      - name: Set Environment Variables
+        run: |
+          echo "NEXT_PUBLIC_URL_IMGS=${{ secrets.NEXT_PUBLIC_URL_IMGS }}" >> $GITHUB_ENV
+          echo "NEXT_PUBLIC_BASEPATH=${{ secrets.NEXT_PUBLIC_BASEPATH }}" >> $GITHUB_ENV
+        env:
+          NEXT_PUBLIC_URL_IMGS: ${{ secrets.NEXT_PUBLIC_URL_IMGS }}
+          NEXT_PUBLIC_BASEPATH: ${{ secrets.NEXT_PUBLIC_BASEPATH }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
