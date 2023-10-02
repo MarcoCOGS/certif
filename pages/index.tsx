@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 export default function Home() {
   const urlImgs = process.env.NEXT_PUBLIC_URL_IMGS
+  console.log('aca', urlImgs)
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const popupRef = useRef(null);
   const popupRef2 = useRef(null);
