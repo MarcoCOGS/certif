@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
-  const urlImgs = process.env.NEXT_PUBLIC_URL_IMGS ?? 'https://marcocogs.github.io/certif'
+  const urlImgs = process.env.NEXT_PUBLIC_URL_IMGS
   console.log('aca', urlImgs)
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const popupRef = useRef(null);
